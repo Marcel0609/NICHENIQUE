@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="confirm_order.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="Search Icon" />
+          <input type="text" placeholder="" />
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html">Places</a>
+        <a href="/food_beverage.html">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html" class="active">Order</a>
+      </nav>
+
+      <main>
+        <!-- Left Side (Payment Methods Section) -->
+        <div class="left-side bordered-section">
+          <h4>Payment Methods</h4>
+
+          <!-- Virtual Account Section -->
+          <h5 class="virtual">Virtual Account</h5>
+          <div class="payment-cards">
+            <label class="card">
+              <input type="radio" name="payment-method" value="BCA" />
+              <img
+                src="image/Logo-BCA-PNG.png"
+                alt="BCA"
+                class="payment-logo"
+              />
+              <span>BCA</span>
+            </label>
+            <label class="card">
+              <input type="radio" name="payment-method" value="Mandiri" />
+              <img
+                src="image/Logo-Bank-Mandiri-PNG.png"
+                alt="Mandiri"
+                class="payment-logo"
+              />
+              <span>Mandiri</span>
+            </label>
+            <label class="card">
+              <input type="radio" name="payment-method" value="BRI" />
+              <img
+                src="image/logo-bri-png-transparan-jasalogocepat-01.png"
+                alt="BRI"
+                class="payment-logo"
+              />
+              <span>BRI</span>
+            </label>
+          </div>
+
+          <!-- E-Wallet Section -->
+          <h5 class="ewallet-text">E-Wallet</h5>
+          <div class="payment-cards">
+            <label class="card">
+              <input type="radio" name="payment-method" value="Gopay" />
+              <img
+                src="image/logo-gopay-vector.png"
+                alt="Gopay"
+                class="payment-logo"
+              />
+              <span>Gopay</span>
+            </label>
+            <label class="card">
+              <input type="radio" name="payment-method" value="OVO" />
+              <img
+                src="image/Logo_ovo_purple.svg.png"
+                alt="OVO"
+                class="payment-logo"
+              />
+              <span>OVO</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Right Side (Total Price Section) -->
+        <div class="right-side bordered-section">
+          <h4>Total Price</h4>
+          <div class="right-menu" id="sss"></div>
+          <hr />
+          <div class="total">
+            <h5>Total</h5>
+            <h5 id="total">Rp 1.285.000,00</h5>
+          </div>
+          <button class="purchase-btn" id="confirm_button">
+            <!-- <a href="payment.html"></a> -->
+            Purchase
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="confirm_order.js"></script>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="place_info.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="" />
+          <input type="text" placeholder="" />
+
+          <!-- Add your search icon here -->
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html" style="background-color: #4d3b25; font-weight: bold">Places</a>
+        <a href="/food_beverage.html">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html">Order</a>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-container">
+        <div class="card">
+          <img id="image" src="image/image 11.png" alt="" />
+          <h2 id="location">ANCOL</h2>
+          <h2>JAKARTA UTARA</h2>
+
+          <h2 class="btn" onclick="addToCart()">ADD</h2>
+        </div>
+        <section class="packages-section" id="detail">
+          <h2>Packages:</h2>
+          <ol>
+            <li>
+              <strong>Basic Package</strong><br />
+              Rp 180.000,00/Person<br />
+              Include Ticket Seaworld, Sunglasses, Cooler Box
+            </li>
+            <li>
+              <strong>Premium Package</strong><br />
+              Rp 210.000,00/Person<br />
+              Include Ticket Seaworld, Samudra, Sunglasses, Cooler Box, Tea
+            </li>
+            <li>
+              <strong>Exclusive Package</strong><br />
+              Rp 250.000,00<br />
+              Include Ticket Seaworld, Samudra, Jakarta Bird Land, Sunglasses,
+              Cooler Box, Juice
+            </li>
+          </ol>
+
+          <h2>Recommendation Items:</h2>
+          <ul>
+            <li>
+              Sunglasses, Umbrella, Spoon & Fork, Mat, Cooler Box, Beach Ball,
+              Beach Toys
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script src="place_info.js"></script>
+</html>

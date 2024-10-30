@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="place_order.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="" />
+          <input type="text" placeholder="" />
+
+          <!-- Add your search icon here -->
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html" class="active">Places</a>
+        <a href="/food_beverage.html">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html">Order</a>
+      </nav>
+      <main>
+        <table>
+          <thead>
+            <tr>
+              <th>Items</th>
+              <th>Name</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="image/image 11.png" alt="" /></td>
+              <td>Ancol</td>
+              <td class="quantity">
+                <div>
+                  <small class="min" onclick="minCount(0)">-</small>
+                  <p class="count">1</p>
+                  <p>Hari</p>
+                  <small class="plus" onclick="plusCount(0)">+</small>
+                </div>
+              </td>
+              <td class="price">RP 180000,00</td>
+              <td class="total">Rp 45.000,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+      <div class="end">
+        <button><a href="confirm_place_order.html">Purchase</a></button>
+      </div>
+    </div>
+  </body>
+  <script src="order.js"></script>
+</html>

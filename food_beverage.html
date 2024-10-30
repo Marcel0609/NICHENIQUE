@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="food_beverage.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="Search" />
+          <input type="text" placeholder="" />
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html">Places</a>
+        <a href="/food_beverage.html" class="active">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html">Order</a>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-container">
+        <div class="card-container">
+          <div class="card">
+            <img src="image/image2.png" alt="" />
+            <h2>MIE GORENG</h2>
+            <h2>RP 50.000/Porsi</h2>
+            <h2>1 Porsi = 4 Orang</h2>
+            <h3 class="add-button" onclick="addToCart(0)">Add</h3>
+          </div>
+          <div class="card">
+            <img src="image/image7.png" alt="" />
+            <h2>SATE AYAM</h2>
+            <h2>RP 35.000/Porsi</h2>
+            <h2>1 Porsi = 10 Tusuk</h2>
+            <h3 class="add-button" onclick="addToCart(1)">Add</h3>
+          </div>
+          <div class="card">
+            <img src="image/image8.png" alt="" />
+            <h2>GADO GADO</h2>
+            <h2>RP 75.000/Porsi</h2>
+            <h2>1 Porsi = 4 Orang</h2>
+            <h3 class="add-button" onclick="addToCart(2)">Add</h3>
+          </div>
+          <div class="card">
+            <img src="image/image9.png" alt="" />
+            <h2>NASI</h2>
+            <h2>RP 7.000/Porsi</h2>
+            <h2>1 Porsi = 1 Orang</h2>
+            <h3 class="add-button" onclick="addToCart(3)">Add</h3>
+          </div>
+          
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="food_beverage.js"></script>
+</html>

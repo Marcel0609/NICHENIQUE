@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="proces_order.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="" />
+          <input type="text" placeholder="" />
+
+          <!-- Add your search icon here -->
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html">Places</a>
+        <a href="/food_beverage.html">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html" class="active">Order</a>
+      </nav>
+      <main>
+        <div class="left-side">
+          <h4>Total Price</h4>
+          <div class="left-menu" id="sss"></div>
+          <!-- <hr /> -->
+          <div class="total">
+            <h5>Total</h5>
+            <h5 id="total"></h5>
+          </div>
+        </div>
+        <div class="right-side">
+          <div>
+            <img class="imgg" src="image/image 36.png" alt="" />
+          </div>
+          <div class="date">
+            <div class="day">
+              <h3>Date</h3>
+              <input type="date" id="day" value="2024-10-14" />
+            </div>
+          </div>
+
+          <div class="input-group">
+            <h3>Personal Information</h3>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your full name" />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number" />
+            </div>
+          </div>
+
+          <h4 class="time">Time</h4>
+          <div class="from">
+            <h5>From</h5>
+            <input type="time" id="from" value="07:00" />
+          </div>
+          <div class="from">
+            <h5>To</h5>
+            <input type="time" id="to" value="07:00" />
+          </div>
+          <button class="confirm" id="confirm">Confirm</button>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="update_date.js"></script>
+</html>

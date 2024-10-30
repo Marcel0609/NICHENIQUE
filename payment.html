@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="payment.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
+        </div>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="" />
+          <input type="text" placeholder="" />
+
+          <!-- Add your search icon here -->
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/home.html">Home</a>
+        <a href="/place.html">Places</a>
+        <a href="/food_beverage.html">Food and Beverages</a>
+        <a href="/equipment.html">Equipment</a>
+        <a href="/order.html" class="active">Order</a>
+      </nav>
+      <main>
+        <div class="left-side">
+          <h4 id="text"></h4>
+
+          <img id="qr" src="image/CodeQR.png" alt="" />
+
+          <h2 id="temp">Scan QR For Payment</h2>
+        </div>
+        <div>
+          <div class="right-side">
+            <h4>Total Price</h4>
+            <div class="right-menu" id="sss"></div>
+            <hr />
+            <div class="total">
+              <h5>Total</h5>
+              <h5 id="total"></h5>
+            </div>
+          </div>
+
+          <!-- <button>
+            <a href="payment.html"></a>
+          </button> -->
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="payment.js"></script>
+</html>
