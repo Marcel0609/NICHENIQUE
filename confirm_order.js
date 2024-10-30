@@ -9,7 +9,7 @@ document.getElementById("confirm_button").addEventListener("click", () => {
     confirmButtonText: "Yes",
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("/payment.html");
+      window.location.replace("/NICHENIQUE/payment.html");
     }
   });
 });

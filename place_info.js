@@ -142,7 +142,7 @@ function infoPackage(id) {
   localStorage.setItem("image", infoPackageImage[id]);
   localStorage.setItem("location", infoPackageLocation[id]);
   localStorage.setItem("detail", infoPackageDetail[id]);
-  window.location.replace("/place_info1.html");
+  window.location.replace("/NICHENIQUE/place_info1.html");
 }
 function addToCart() {
   // Get existing cart from localStorage or initialize an empty array if no cart exists
