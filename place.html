@@ -1,87 +1,86 @@
-
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <link
-          href="https://fonts.googleapis.com/css?family=Gorditas"
-          rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-          rel="stylesheet"
-        />
-        <title>NICHE NIQUE</title>
-        <link rel="stylesheet" href="place.css" />
-      </head>
-      <body>
-        <div class="container">
-          <!-- Top Navigation Bar -->
-          <header class="navbar">
-            <div class="brand">
-              <h1>NICHE NIQUE</h1>
-            </div>
-            <div class="search-bar">
-              <img src="image/search-icon.svg" alt="" />
-              <input type="text" placeholder="" />
-            </div>
-            <div class="slogan">
-              <p>
-                "Niche Nique, where picnics speak, we'll craft a moment that's
-                unique!"
-              </p>
-            </div>
-          </header>
-
-          <!-- Menu -->
-          <nav class="menu">
-            <a href="/NICHENIQUE/home.html">Home</a>
-            <a href="/NICHENIQUE/place.html" class="active">Places</a>
-            <a href="/NICHENIQUE/food_beverage.html">Food and Beverages</a>
-            <a href="/NICHENIQUE/equipment.html">Equipment</a>
-            <a href="/NICHENIQUE/order.html">Order</a>
-          </nav>
-
-          <!-- Main Content -->
-          <main class="main-container">
-            <div class="card-container">
-              <div class="card">
-                <img src="image/image11.png" alt="" />
-                <h2>ANCOL</h2>
-                <a class="info-link" onclick="infoPackage(0)">INFO PACKAGE</a>
-                <a class="add-button" onclick="addToCart(0)">ADD TO CART</a>
-              </div>
-              <div class="card">
-                <img src="image/image15(1).png" alt="" />
-                <h2>TMII</h2>
-                <a class="info-link" onclick="infoPackage(1)">INFO PACKAGE</a>
-                <a class="add-button" onclick="addToCart(1) ">ADD TO CART</a>
-              </div>
-              <div class="card">
-                <img src="image/image16(1).png" alt="" />
-                <h2>BEACH</h2>
-                <a class="info-link" onclick="infoPackage(2)">INFO PACKAGE</a>
-                <a class="add-button" onclick="addToCart(2)">ADD TO CART</a>
-              </div>
-              <div class="card">
-                <img src="image/image17(1).png" alt="" />
-                <h2>Ragunan</h2>
-                <a class="info-link" onclick="infoPackage(3)">INFO PACKAGE</a>
-                <a class="add-button" onclick="addToCart(3) ">ADD TO CART</a>
-              </div>
-            </div>
-          </main>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gorditas"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>NICHE NIQUE</title>
+    <link rel="stylesheet" href="place.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top Navigation Bar -->
+      <header class="navbar">
+        <div class="brand">
+          <h1>NICHE NIQUE</h1>
         </div>
-      </body>
-      <script src="place.js"></script>
-    </html>
+        <div class="search-bar">
+          <img src="image/search-icon.svg" alt="" />
+          <input type="text" placeholder="" />
+        </div>
+        <div class="slogan">
+          <p>
+            "Niche Nique, where picnics speak, we'll craft a moment that's
+            unique!"
+          </p>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <nav class="menu">
+        <a href="/NICHENIQUE/home.html">Home</a>
+        <a href="/NICHENIQUE/place.html" class="active">Places</a>
+        <a href="/NICHENIQUE/food_beverage.html">Food and Beverages</a>
+        <a href="/NICHENIQUE/equipment.html">Equipment</a>
+        <a href="/NICHENIQUE/order.html">Order</a>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-container">
+        <div class="card-container">
+          <div class="card">
+            <img src="image/image11.png" alt="" />
+            <h2>ANCOL</h2>
+            <a class="info-link" onclick="infoPackage(0)">INFO PACKAGE</a>
+            <a class="add-button" onclick="addToCart(0)">ADD TO CART</a>
+          </div>
+          <div class="card">
+            <img src="image/image15(1).png" alt="" />
+            <h2>TMII</h2>
+            <a class="info-link" onclick="infoPackage(1)">INFO PACKAGE</a>
+            <a class="add-button" onclick="addToCart(1) ">ADD TO CART</a>
+          </div>
+          <div class="card">
+            <img src="image/image16(1).png" alt="" />
+            <h2>BEACH</h2>
+            <a class="info-link" onclick="infoPackage(2)">INFO PACKAGE</a>
+            <a class="add-button" onclick="addToCart(2)">ADD TO CART</a>
+          </div>
+          <div class="card">
+            <img src="image/image17(1).png" alt="" />
+            <h2>Ragunan</h2>
+            <a class="info-link" onclick="infoPackage(3)">INFO PACKAGE</a>
+            <a class="add-button" onclick="addToCart(3) ">ADD TO CART</a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="place.js"></script>
+</html>
