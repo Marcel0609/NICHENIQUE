@@ -41,7 +41,7 @@ function showConfirmationAlert(userData) {
     }).then((result) => {
         if (result.isConfirmed) {
             localStorage.setItem("userData", JSON.stringify(userData));
-            window.location.replace("/confirm_order.html");
+            window.location.replace("/NICHENIQUE/confirm_order.html");
         }
     });
 }

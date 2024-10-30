@@ -181,7 +181,7 @@ function addToCart(id) {
       }
 
       // console.log("Item added to cart:", tempData);
-      window.location.replace("/order.html");
+      window.location.replace("/NICHENIQUE/order.html");
     }
   });
 }

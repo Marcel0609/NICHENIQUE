@@ -11,7 +11,7 @@ document.getElementById("Purchase_button").addEventListener("click", () => {
     confirmButtonText: "OK",
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.replace("/proces_order.html");
+      window.location.replace("/NICHENIQUE/proces_order.html");
     }
   });
 });
@@ -37,7 +37,7 @@ function minCount(id) {
   if (count[id].innerHTML == 1) {
     cart.splice(id, 1); // Hapus item dari keranjang jika jumlahnya 1
     localStorage.setItem("cart", JSON.stringify(cart));
-    window.location.replace("/order.html");
+    window.location.replace("/NICHENIQUE/order.html");
     return;
   }
 
