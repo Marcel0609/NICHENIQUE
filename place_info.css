@@ -6,6 +6,8 @@
 }
 
 body {
+  background-image: URL("image/Default.png");
+
   font-family: "Montserrat Alternates", sans-serif;
   background-color: #fff0db; /* Light beige color */
   color: #4d3b25; /* Dark brown color */
@@ -70,6 +72,7 @@ body {
 
 /* Menu */
 .menu {
+  
   display: flex;
   justify-content: space-around;
   /* padding: 15px 0; */
@@ -95,7 +98,12 @@ body {
   color: #f5f1e4;
   border-radius: 4px;
 }
+.main{
+  background-image: URL("image/Default.png");
+
+}
 .main-container {
+
   display: flex;
   flex-direction: row;
   justify-content: center;
